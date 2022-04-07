@@ -10,6 +10,6 @@ def main(n):
     for i in range(n):
         s+=str(i)+','
     return str(s)+'"'
-print(main(4))    
+   
    
    
