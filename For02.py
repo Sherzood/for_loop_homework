@@ -6,9 +6,10 @@ def main(n):
     Returns:
         string: return  answer
     """
-    s=''
+    s='"'
     for i in range(n):
         s+=str(i)+','
-    return str(s)
+    return str(s)+'"'
+print(main(4))    
    
    
