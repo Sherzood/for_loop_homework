@@ -9,7 +9,7 @@ def main(n):
     s='"'
     for i in range(n):
         s+=str(i)+','
-    return str(s)+'"'
-   
+    return s[:-1]+'"'
+
    
    
